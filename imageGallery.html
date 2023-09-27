@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="lg:bg-slate-900 sm:bg-zinc-400 md:bg-slate-600 bg-yellow-100">
+    <div>
+        <div
+            class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 p-6 rounded-lg h-full w-full columns-4 gap-4 space-y-4 container mx-auto my-4  ">
+            <img class="aspect-auto transition delay-150 hover:-translate-y-1 hover:m-4 hover:scale-110 transform duration-75 hover:shadow-lg hover:ease-in-out hover:cursor-pointer"
+                src="./static/apple.jpg" alt="apple" srcset="">
+            <img class="rounded-lg aspect-auto" src="./static/code.jpg" alt="code" srcset="">
+            <img class="rounded-lg aspect-full hover:animate-ping " src="./static/taiwan.jpg" alt="taiwan" srcset="">
+            <img class="rounded-lg aspect-full" src="./static/taiwanbeauty.jpg" alt="taiwanbeauty" srcset="">
+            <img class="group rounded-lg aspect-full hover:cursor-pointer opacity-25 hover:bg-zinc-600 hover:opacity-100 hover:transition-transform hover:delay-100 hover:ease-in-out"
+                src="./static/teacher.jpg" alt="teacher" title="Sitesh" srcset="">
+            <div
+                class="group-hover:backdrop-opacity-100  opacity-0 group-hover:opacity-100 duration-300 absolute  bottom-30 z-10  justify-center items-end text-xl bg-gray-200 text-black font-semibold flex">
+                Sitesh Chaudary</div>
+            <img class="rounded-3xl hover:order-2 hover:cursor-wait animate-bounce duration-1000 delay-1000"
+                src="./static/coder.jpg" alt="" srcset="">
+        </div>
+        <a href="#"
+            class="text-white group flex justify-center bg-zinc-400 w-40 mx-auto p-3 rounded-lg text-end font-semibold capitalize hover:text-black hover:bg-white hover:animate-bounce hover:uppercase"
+            title="I'm Bouncing'">Testing
+            <div class="group-hover:opacity-100 group-hover:text-white text-black opacity-0">Test</div>
+        </a>
+    </div>
+
+</body>
+
+</html>
